@@ -14,7 +14,16 @@
     <h4>Google Maps and Geolocation</h4>
     <a href="geolocation.html" style="display: block; margin-bottom: 40px;">Geolocation</a>
     <!-- set up the html file for the Google Maps API -->
+    <div class="preload-wrapper">
+        <i class="fa fa-spinner"></i>
+        <span>Loading map, please wait...</span>
+    </div>
     <div class="map-wrapper"></div>
+
+    <h4 class="heocode-header">	Using the GeoCode..API</h4>
+    <input type="texbox" class="address"></input>
+    <button class="geocode">Code Address!</button>
+
     <script src="js/main.js"></script>
 </body>
 </html>
